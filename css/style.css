@@ -73,7 +73,8 @@ a {
 .list-item:not(:last-child) {
     border-right: white solid 1px;
 }
-.list-item{
+
+.list-item {
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -114,14 +115,15 @@ a {
 .content {
     display: flex;
     margin: 48px 210px 195px 210px;
+    max-width: 980px;
 }
 
 .news {
     position: relative;
     color: white;
     padding: 2px 50px 34px 34px;
-    min-width: 350px;
-   
+    min-width: 300px; 
+
 }
 
 .news>p {
@@ -156,9 +158,11 @@ a {
 h2 {
     font-size: 20px;
 }
+
 .company {
-    /* max-width: 570px; */
+    max-width: 570px; 
     /* width: 100%; */
+
     margin-left: 60px;
 }
 
@@ -183,8 +187,31 @@ h2 {
     line-height: 25px;
 }
 
-@media (max-width: 1048px){
-    .sale  {
+@media (max-width: 1048px) {
+    .sale {
         order: 5;
+    }
+}
+
+@media (max-width: 996px) {
+    .container {
+        min-width: 996px;
+    }
+
+   }
+@media (max-width: 920px) {
+    .container {
+        min-width: 950px;
+    }
+} 
+@media (max-width: 870px) {
+    .container {
+        min-width: 980px;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        min-width: 980px;
     }
 }
