@@ -17,3 +17,5 @@ let thisDate = curr_year + "." + setZero(curr_month) + "." + setZero(curr_date) 
 console.log(thisDate);
 document.getElementById('d').innerHTML = thisDate;
 
+
+

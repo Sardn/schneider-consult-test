@@ -4,10 +4,11 @@
     line-height: 22px;
 }
 
-.wrapper {
+.page-header-top,
+.main-nav, .page-footer {
     min-width: 980px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    /* margin-left: 10px;
+    margin-right: 10px;  */
 }
 
 p {
@@ -20,12 +21,9 @@ p {
 
 .logotip {
     border-radius: 8px;
-    padding: 0;
-    margin: 0;
 }
 
 .sale {
-    /* max-width: 220px; */
     color: gray;
     display: flex;
     padding-top: 10px;
@@ -77,8 +75,6 @@ a {
 .item-link {
     color: white;
     font-size: 14px;
-
-
 }
 
 .list-item:not(:last-child) {
@@ -101,7 +97,6 @@ a {
     position: absolute;
     right: 46px;
     bottom: 40px;
-    z-index: 9;
     display: flex;
     align-items: center;
     width: 100px;
@@ -172,12 +167,10 @@ h2 {
 
 .company {
     max-width: 570px;
-    /* width: 100%; */
-
     margin-left: 60px;
 }
 
-.left-text {
+.products {
     margin-right: 45px;
 }
 
@@ -215,6 +208,7 @@ h2 {
     }
 
 }
+
 @media (max-width: 950px) {
     .container {
         min-width: 950px;
